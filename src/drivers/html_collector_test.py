@@ -6,8 +6,8 @@ def test_collect_essential_information():
     http_request_response = mock_request_from_page()
 
     html_collector = HtmlCollector()
-    essential_information = html_collector.collect_essential_information(
-        http_request_response["html"])
+    essential_information = html_collector.collect_essential_information(http_request_response["html"])
+    print(essential_information)
 
     assert isinstance(essential_information, list)
     assert isinstance(essential_information[0], dict)
