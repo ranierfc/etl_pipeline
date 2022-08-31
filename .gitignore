@@ -3,3 +3,10 @@
 
 # Environment
 venv
+
+# Editor Config
+.vscode
+.pylintrc
+
+# Git Commit
+.pre-commit-config.yaml
